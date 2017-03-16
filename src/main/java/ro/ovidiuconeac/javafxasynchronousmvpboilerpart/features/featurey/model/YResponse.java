@@ -1,13 +1,13 @@
-package ro.ovidiuconeac.javafxasynchronousmvpboilerpart.features.featurex.model;
+package ro.ovidiuconeac.javafxasynchronousmvpboilerpart.features.featurey.model;
 
 /**
  * Created by www.ovidiuconeac.ro on 3/16/17.
  */
-public class XResponse {
+public class YResponse {
 
     private String result;
 
-    public XResponse(String result) {
+    public YResponse(String result) {
         this.result = result;
     }
 
@@ -18,9 +18,9 @@ public class XResponse {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof XResponse)) return false;
+        if (!(o instanceof YResponse)) return false;
 
-        XResponse xResponse = (XResponse) o;
+        YResponse xResponse = (YResponse) o;
 
         return result != null ? result.equals(xResponse.result) : xResponse.result == null;
     }

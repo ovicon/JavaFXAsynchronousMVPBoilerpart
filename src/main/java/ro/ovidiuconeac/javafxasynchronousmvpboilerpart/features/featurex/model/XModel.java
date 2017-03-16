@@ -16,16 +16,16 @@ public class XModel {
 
     public XResponse requestAction1() {
         // Compute some data here
-        return new XResponse("Response " + random.nextInt(10000));
+        return new XResponse("Response X " + random.nextInt(10000));
     }
 
     public XResponse requestAction2() {
         // Compute some data here
-        return new XResponse("Response " + random.nextInt(10000));
+        return new XResponse("Response X " + random.nextInt(10000));
     }
 
     public XResponse requestAction3() {
         // Compute some data here
-        return new XResponse("Response " + random.nextInt(10000));
+        return new XResponse("Response X " + random.nextInt(10000));
     }
 }

@@ -29,7 +29,7 @@ public class XPresenterImpl implements XPresenter {
     @Override
     public void requestAction1() {
         service.execute(() -> {
-            Util.simulateNetworkLatency(3000);
+            Util.simulateNetworkLatency(5000);
             XResponse result = model.requestAction1();
             runLater(() -> view.postResult1(result.getResult()));
         });
@@ -38,7 +38,7 @@ public class XPresenterImpl implements XPresenter {
     @Override
     public void requestAction2() {
         service.execute(() -> {
-            Util.simulateNetworkLatency(2000);
+            Util.simulateNetworkLatency(4000);
             XResponse result = model.requestAction2();
             runLater(() -> view.postResult2(result.getResult()));
         });
@@ -47,7 +47,7 @@ public class XPresenterImpl implements XPresenter {
     @Override
     public void requestAction3() {
         service.execute(() -> {
-            Util.simulateNetworkLatency(4000);
+            Util.simulateNetworkLatency(6000);
             XResponse result = model.requestAction3();
             runLater(() -> view.postResult3(result.getResult()));
         });
