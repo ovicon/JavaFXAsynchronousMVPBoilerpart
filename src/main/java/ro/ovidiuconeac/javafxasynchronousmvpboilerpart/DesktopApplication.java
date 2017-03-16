@@ -3,10 +3,9 @@ package ro.ovidiuconeac.javafxasynchronousmvpboilerpart;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.stage.Stage;
-import ro.ovidiuconeac.javafxasynchronousmvpboilerpart.features.featurex.FeatureXScene;
 import ro.ovidiuconeac.javafxasynchronousmvpboilerpart.features.featurex.view.XViewImpl;
-import ro.ovidiuconeac.javafxasynchronousmvpboilerpart.features.featurey.FeatureYScene;
 import ro.ovidiuconeac.javafxasynchronousmvpboilerpart.features.featurey.view.YViewImpl;
 
 import java.io.IOException;
@@ -23,8 +22,8 @@ import java.io.IOException;
 public class DesktopApplication extends Application implements NavigationController {
 
     private Stage stage;
-    private FeatureXScene sceneX;
-    private FeatureYScene sceneY;
+    private Scene sceneX;
+    private Scene sceneY;
 
     public static void main(String[] args) {
         launch(args);
@@ -50,14 +49,14 @@ public class DesktopApplication extends Application implements NavigationControl
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/layout/featurex_view.fxml"));
         Parent root = loader.load();
         ((XViewImpl)loader.getController()).setNavigationController(this);
-        sceneX = new FeatureXScene(root);
+        sceneX = new Scene(root);
     }
 
     private void createSceneForFeatureY() throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/layout/featurey_view.fxml"));
         Parent root = loader.load();
         ((YViewImpl)loader.getController()).setNavigationController(this);
-        sceneY = new FeatureYScene(root);
+        sceneY = new Scene(root);
     }
 
 
