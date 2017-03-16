@@ -2,22 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60ce66eb-ea94-4a2e-a38a-05f1d6a565a1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_10_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/javafxasynchronousmvpboilerpart/features/featurex/model/XModelTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/javafxasynchronousmvpboilerpart/features/featurex/presenter/XPresenterImplTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/javafxasynchronousmvpboilerpart/features/featurex/view/XViewImplTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/javafxasynchronousmvpboilerpart/features/featurey/model/YModelTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/javafxasynchronousmvpboilerpart/features/featurey/presenter/YPresenterImplTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/javafxasynchronousmvpboilerpart/features/featurey/view/YViewImplTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/javafxasynchronousmvpboilerpart/features/featurex/FeatureXScene.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/javafxasynchronousmvpboilerpart/features/featurey/FeatureYScene.java" afterPath="$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/javafxasynchronousmvpboilerpart/features/featurey/FeatureYScene.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javafxasynchronousmvpboilerpart.iml" afterPath="$PROJECT_DIR$/javafxasynchronousmvpboilerpart.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/javafxasynchronousmvpboilerpart/DesktopApplication.java" afterPath="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/javafxasynchronousmvpboilerpart/DesktopApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/javafxasynchronousmvpboilerpart/features/featurex/model/XModel.java" afterPath="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/javafxasynchronousmvpboilerpart/features/featurex/model/XModel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/layout/featurex_view.fxml" afterPath="$PROJECT_DIR$/src/main/resources/layout/featurex_view.fxml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -137,16 +121,27 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="XViewImplTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/javafxasynchronousmvpboilerpart/features/featurex/view/XViewImplTest.java">
+      <file leaf-file-name="DesktopApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/javafxasynchronousmvpboilerpart/DesktopApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="82" column="70" lean-forward="false" selection-start-line="82" selection-start-column="70" selection-end-line="82" selection-end-column="70" />
+            <state relative-caret-position="114">
+              <caret line="48" column="80" lean-forward="true" selection-start-line="48" selection-start-column="80" selection-end-line="48" selection-end-column="80" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#838#839#0" expanded="true" />
-                <element signature="e#882#883#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="featurex_view.fxml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/layout/featurex_view.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="307" lean-forward="false" selection-start-line="10" selection-start-column="307" selection-end-line="10" selection-end-column="307" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -203,12 +198,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="XPresenterImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="XPresenterImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/javafxasynchronousmvpboilerpart/features/featurex/presenter/XPresenterImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="84" lean-forward="true" selection-start-line="5" selection-start-column="84" selection-end-line="5" selection-end-column="84" />
-              <folding />
+            <state relative-caret-position="450">
+              <caret line="25" column="55" lean-forward="true" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -232,16 +229,6 @@
                 <element signature="e#222#223#0" expanded="true" />
                 <element signature="e#259#260#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="YPresenterImplTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/javafxasynchronousmvpboilerpart/features/featurey/presenter/YPresenterImplTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -310,7 +297,6 @@
         <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/javafxasynchronousmvpboilerpart/features/featurey/presenter/YPresenter.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/javafxasynchronousmvpboilerpart/features/featurey/model/YModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/javafxasynchronousmvpboilerpart/features/featurey/presenter/YPresenterImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/layout/featurex_view.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/layout/featurey_view.fxml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/javafxasynchronousmvpboilerpart/features/featurex/model/XModel.java" />
@@ -325,6 +311,7 @@
         <option value="$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/javafxasynchronousmvpboilerpart/features/featurey/view/YViewImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/javafxasynchronousmvpboilerpart/features/featurex/presenter/XPresenterImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/javafxasynchronousmvpboilerpart/features/featurex/model/XModel.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/layout/featurex_view.fxml" />
       </list>
     </option>
   </component>
@@ -729,7 +716,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/javafxasynchronousmvpboilerpart/features/food/mvp" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ro.ovidiuconeac.javafxasynchronousmvpboilerpart.features in javafxasynchronousmvpboilerpart">
+  <component name="RunManager" selected="Application.DesktopApplication">
     <configuration default="false" name="DesktopApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1055,10 +1042,10 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ro.ovidiuconeac.javafxasynchronousmvpboilerpart.features in javafxasynchronousmvpboilerpart" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.All in javafxasynchronousmvpboilerpart" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.XModelTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.DesktopApplication" />
+        <item index="0" class="java.lang.String" itemvalue="Application.DesktopApplication" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ro.ovidiuconeac.javafxasynchronousmvpboilerpart.features in javafxasynchronousmvpboilerpart" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.All in javafxasynchronousmvpboilerpart" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.XModelTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1110,10 +1097,10 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1043578" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47821102" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1765625" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29701835" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912844" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Running Info" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1176,7 +1163,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1335,17 +1324,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/layout/featurex_view.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="63" column="41" lean-forward="false" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/layout/featurey_view.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
@@ -1481,16 +1459,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/javafxasynchronousmvpboilerpart/DesktopApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
-          <caret line="58" column="26" lean-forward="false" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/javafxasynchronousmvpboilerpart/features/featurey/model/YModelTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -1582,8 +1550,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/javafxasynchronousmvpboilerpart/features/featurex/presenter/XPresenterImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="84" lean-forward="true" selection-start-line="5" selection-start-column="84" selection-end-line="5" selection-end-column="84" />
+        <state relative-caret-position="450">
+          <caret line="25" column="55" lean-forward="true" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/javafxasynchronousmvpboilerpart/DesktopApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="48" column="80" lean-forward="true" selection-start-line="48" selection-start-column="80" selection-end-line="48" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/layout/featurex_view.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="307" lean-forward="false" selection-start-line="10" selection-start-column="307" selection-end-line="10" selection-end-column="307" />
           <folding />
         </state>
       </provider>

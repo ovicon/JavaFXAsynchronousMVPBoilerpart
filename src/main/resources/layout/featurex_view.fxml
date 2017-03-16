@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="227.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.ovidiuconeac.javafxasynchronousmvpboilerpart.features.featurex.view.XViewImplTest">
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="227.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.ovidiuconeac.javafxasynchronousmvpboilerpart.features.featurex.view.XViewImpl">
     <VBox prefHeight="200.0" prefWidth="296.0">
         <HBox prefHeight="100.0" prefWidth="200.0">
             <ProgressIndicator id="progressRequest1" fx:id="progressRequest1" progress="0.0">
