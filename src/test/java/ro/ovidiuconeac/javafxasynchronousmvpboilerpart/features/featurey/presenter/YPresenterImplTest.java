@@ -3,7 +3,6 @@ package ro.ovidiuconeac.javafxasynchronousmvpboilerpart.features.featurey.presen
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import ro.ovidiuconeac.javafxasynchronousmvpboilerpart.features.featurex.presenter.XPresenterImpl;
 
 import static org.mockito.Mockito.doNothing;
 import static org.mockito.Mockito.mock;

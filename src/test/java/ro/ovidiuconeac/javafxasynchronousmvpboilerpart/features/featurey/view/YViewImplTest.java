@@ -4,7 +4,6 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import ro.ovidiuconeac.javafxasynchronousmvpboilerpart.NavigationController;
-import ro.ovidiuconeac.javafxasynchronousmvpboilerpart.features.featurex.view.XViewImpl;
 
 import static org.mockito.Matchers.any;
 import static org.mockito.Matchers.anyString;

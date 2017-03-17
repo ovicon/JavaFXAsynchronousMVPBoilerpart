@@ -1,17 +1,9 @@
 package ro.ovidiuconeac.javafxasynchronousmvpboilerpart.features.featurex.view;
 
-import javafx.fxml.FXML;
-import javafx.fxml.Initializable;
-import javafx.scene.control.Label;
-import javafx.scene.control.ProgressIndicator;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import ro.ovidiuconeac.javafxasynchronousmvpboilerpart.NavigationController;
-import ro.ovidiuconeac.javafxasynchronousmvpboilerpart.features.featurex.presenter.XPresenterImplTest;
-
-import java.net.URL;
-import java.util.ResourceBundle;
 
 import static org.mockito.Matchers.any;
 import static org.mockito.Matchers.anyString;

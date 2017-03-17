@@ -3,8 +3,6 @@ package ro.ovidiuconeac.javafxasynchronousmvpboilerpart.features.featurey.model;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import ro.ovidiuconeac.javafxasynchronousmvpboilerpart.features.featurex.model.XModel;
-import ro.ovidiuconeac.javafxasynchronousmvpboilerpart.features.featurex.model.XResponse;
 
 import static org.junit.Assert.assertNotNull;
 
@@ -14,11 +12,11 @@ import static org.junit.Assert.assertNotNull;
 
 public class YModelTest {
 
-    private XModel model;
+    private YModel model;
 
     @Before
     public void setUp() {
-        model = new XModel();
+        model = new YModel();
     }
 
     @After
@@ -28,14 +26,14 @@ public class YModelTest {
 
     @Test
     public void testRequestAction1() {
-        XResponse response = model.requestAction1();
+        YResponse response = model.requestAction1();
         assertNotNull(response);
         assertNotNull(response.getResult());
     }
 
     @Test
     public void testRequestAction2() {
-        XResponse response = model.requestAction2();
+        YResponse response = model.requestAction2();
         assertNotNull(response);
         assertNotNull(response.getResult());
     }
