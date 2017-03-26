@@ -1,6 +1,6 @@
 # JavaFXAsynchronousMVPBoilerpart
 Based on [__freeze-version-1__](https://github.com/ovicon/JavaFXAsynchronousMVPBoilerpart/tree/freeze-version-1) branch.
-Moved asynchronous operations to views.
+Moved asynchronous operations from presenters to views.
 
 License
 -------
