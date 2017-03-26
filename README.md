@@ -1,16 +1,5 @@
 # JavaFXAsynchronousMVPBoilerpart
-
-Boilerpart code for asynchronous MVP design for JavaFX.
-
-The problem
--------
-
-How to implement a simple, decoupled, testable, asynchronous MVP design using JavaFX, based on the
-[Boilerpart code for asynchronous MVP design for Android, without 3rd party libraries.](https://github.com/ovicon/AndroidAsynchronousMVPBoilerpart).
-
-The solution
--------
-You can read a detailed desciption of the solution [here](http://www.ovidiuconeac.ro/2017/03/16/asynchronous-mvp-design-with-javafx/).
+This is a backup of the [__master__](https://github.com/ovicon/JavaFXAsynchronousMVPBoilerpart) branch.
 
 License
 -------
