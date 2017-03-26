@@ -10,6 +10,10 @@ import ro.ovidiuconeac.javafxasynchronousmvpboilerpart.features.featurex.present
 
 import java.net.URL;
 import java.util.ResourceBundle;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+import static javafx.application.Platform.runLater;
 
 /**
  * Created by ovidiu on 2/24/17.
@@ -31,49 +35,57 @@ public class XViewImpl implements Initializable, XView {
 
     private XPresenter presenter;
     private NavigationController navigationController;
+    private ExecutorService service;
 
     public void initialize(URL location, ResourceBundle resources) {
         this.presenter = new XPresenterImpl(this);
+        this.service = Executors.newCachedThreadPool();
     }
 
     @FXML
     @Override
     public void requestAction1() {
         progressRequest1.setProgress(0.5);
-        presenter.requestAction1();
+        service.execute(() -> presenter.requestAction1());
+
     }
 
     @Override
     public void postResult1(String result) {
-        request1.setText(result);
-        progressRequest1.setProgress(1.0);
+        runLater(() -> {
+            request1.setText(result);
+            progressRequest1.setProgress(1.0);
+        });
     }
 
     @FXML
     @Override
     public void requestAction2() {
         progressRequest2.setProgress(0.5);
-        presenter.requestAction2();
+        service.execute(() -> presenter.requestAction2());
     }
 
     @Override
     public void postResult2(String result) {
-        request2.setText(result);
-        progressRequest2.setProgress(1.0);
+        runLater(() -> {
+            request2.setText(result);
+            progressRequest2.setProgress(1.0);
+        });
     }
 
     @FXML
     @Override
     public void requestAction3() {
         progressRequest3.setProgress(0.5);
-        presenter.requestAction3();
+        service.execute(() -> presenter.requestAction3());
     }
 
     @Override
     public void postResult3(String result) {
-        request3.setText(result);
-        progressRequest3.setProgress(1.0);
-
+        runLater(() -> {
+            request3.setText(result);
+            progressRequest3.setProgress(1.0);
+        });
     }
 
     @Override

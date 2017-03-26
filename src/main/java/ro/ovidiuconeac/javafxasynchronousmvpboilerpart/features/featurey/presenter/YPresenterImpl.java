@@ -18,29 +18,23 @@ public class YPresenterImpl implements YPresenter {
 
     private YView view;
     private YModel model;
-    private ExecutorService service;
 
     public YPresenterImpl(YView view) {
         this.view = view;
         this.model = new YModel();
-        this.service = Executors.newCachedThreadPool();
     }
 
     @Override
     public void requestAction1() {
-        service.execute(() -> {
-            Util.simulateNetworkLatency(6000);
-            YResponse result = model.requestAction1();
-            runLater(() -> view.postResult1(result.getResult()));
-        });
+        Util.simulateNetworkLatency(6000);
+        YResponse result = model.requestAction1();
+        view.postResult1(result.getResult());
     }
 
     @Override
     public void requestAction2() {
-        service.execute(() -> {
-            Util.simulateNetworkLatency(5000);
-            YResponse result = model.requestAction2();
-            runLater(() -> view.postResult2(result.getResult()));
-        });
+        Util.simulateNetworkLatency(5000);
+        YResponse result = model.requestAction2();
+        view.postResult2(result.getResult());
     }
 }

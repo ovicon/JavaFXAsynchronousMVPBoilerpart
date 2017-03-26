@@ -3,9 +3,9 @@ package ro.ovidiuconeac.javafxasynchronousmvpboilerpart.features.featurex.presen
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import ro.ovidiuconeac.javafxasynchronousmvpboilerpart.features.featurex.view.XView;
 
-import static org.mockito.Mockito.doNothing;
-import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.*;
 
 /**
  * Created by ovidiu on 12/29/16.
@@ -13,33 +13,36 @@ import static org.mockito.Mockito.mock;
 
 public class XPresenterImplTest {
 
+    private XView view;
     private XPresenterImpl presenter;
 
     @Before
     public void setUp() {
-        presenter = mock(XPresenterImpl.class);
+        view = mock(XView.class);
+        presenter = new XPresenterImpl(view);
     }
 
     @After
     public void tearDown() {
+        view = null;
         presenter = null;
     }
 
     @Test
     public void testRequestAction1() {
-        doNothing().when(presenter).requestAction1();
         presenter.requestAction1();
+        verify(view, times(1)).postResult1(anyString());
     }
 
     @Test
     public void testRequestAction2() {
-        doNothing().when(presenter).requestAction2();
         presenter.requestAction2();
+        verify(view, times(1)).postResult2(anyString());
     }
 
     @Test
     public void testRequestAction3() {
-        doNothing().when(presenter).requestAction3();
         presenter.requestAction3();
+        verify(view, times(1)).postResult3(anyString());
     }
 }

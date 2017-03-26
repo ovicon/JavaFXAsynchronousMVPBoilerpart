@@ -3,9 +3,10 @@ package ro.ovidiuconeac.javafxasynchronousmvpboilerpart.features.featurey.presen
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import ro.ovidiuconeac.javafxasynchronousmvpboilerpart.features.featurey.view.YView;
 
-import static org.mockito.Mockito.doNothing;
-import static org.mockito.Mockito.mock;
+import static org.mockito.Matchers.anyString;
+import static org.mockito.Mockito.*;
 
 /**
  * Created by ovidiu on 12/29/16.
@@ -13,27 +14,30 @@ import static org.mockito.Mockito.mock;
 
 public class YPresenterImplTest {
 
+    private YView view;
     private YPresenterImpl presenter;
 
     @Before
     public void setUp() {
-        presenter = mock(YPresenterImpl.class);
+        view = mock(YView.class);
+        presenter = new YPresenterImpl(view);
     }
 
     @After
     public void tearDown() {
+        view = null;
         presenter = null;
     }
 
     @Test
     public void testRequestAction1() {
-        doNothing().when(presenter).requestAction1();
         presenter.requestAction1();
+        verify(view, times(1)).postResult1(anyString());
     }
 
     @Test
     public void testRequestAction2() {
-        doNothing().when(presenter).requestAction2();
         presenter.requestAction2();
+        verify(view, times(1)).postResult2(anyString());
     }
 }
