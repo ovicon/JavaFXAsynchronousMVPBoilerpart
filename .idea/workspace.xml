@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60ce66eb-ea94-4a2e-a38a-05f1d6a565a1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="60ce66eb-ea94-4a2e-a38a-05f1d6a565a1" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,12 +82,12 @@
     <favorites_list name="CodeIris Favorites" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="YViewImplTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/javafxasynchronousmvpboilerpart/features/featurey/view/YViewImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+            <state relative-caret-position="810">
+              <caret line="57" column="5" lean-forward="false" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -98,8 +96,8 @@
       <file leaf-file-name="YPresenterImplTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/javafxasynchronousmvpboilerpart/features/featurey/presenter/YPresenterImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+            <state relative-caret-position="522">
+              <caret line="38" column="1" lean-forward="false" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -108,7 +106,7 @@
       <file leaf-file-name="XPresenterImplTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/javafxasynchronousmvpboilerpart/features/featurex/presenter/XPresenterImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
+            <state relative-caret-position="180">
               <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
               <folding />
             </state>
@@ -118,7 +116,7 @@
       <file leaf-file-name="XResponse.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/javafxasynchronousmvpboilerpart/features/featurex/model/XResponse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
+            <state relative-caret-position="486">
               <caret line="33" column="18" lean-forward="false" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
               <folding />
             </state>
@@ -169,7 +167,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/javafxasynchronousmvpboilerpart/features/featurex/model/XModel.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -271,9 +269,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1920" />
+    <option name="y" value="28" />
     <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="height" value="1018" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -331,6 +329,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -425,7 +425,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -732,7 +731,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1273,6 +1271,7 @@
       <workItem from="1489927993003" duration="12000" />
       <workItem from="1489937077291" duration="293000" />
       <workItem from="1490483674427" duration="223000" />
+      <workItem from="1490556726089" duration="8000" />
     </task>
     <servers />
   </component>
@@ -1285,7 +1284,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10638000" />
+    <option name="totallyTimeSpent" value="10646000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1297,25 +1296,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="28" width="1920" height="1018" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912844" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31190726" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31190726" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28872496" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28541002" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2880724" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1335,6 +1333,7 @@
       <window_info id="Cloverage" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Code Iris" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7355769" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32912844" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1765625" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1470,13 +1469,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/layout/featurey_view.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="774">
           <caret line="43" column="40" lean-forward="false" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -1532,13 +1531,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/layout/featurex_view.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="307" lean-forward="false" selection-start-line="10" selection-start-column="307" selection-end-line="10" selection-end-column="307" />
         </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/javafxasynchronousmvpboilerpart/features/common/SetNavigationController.java">
@@ -1815,23 +1814,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/javafxasynchronousmvpboilerpart/features/featurey/view/YViewImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+        <state relative-caret-position="810">
+          <caret line="57" column="5" lean-forward="false" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/javafxasynchronousmvpboilerpart/features/featurey/presenter/YPresenterImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+        <state relative-caret-position="522">
+          <caret line="38" column="1" lean-forward="false" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ro/ovidiuconeac/javafxasynchronousmvpboilerpart/features/featurex/presenter/XPresenterImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
+        <state relative-caret-position="180">
           <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
           <folding />
         </state>
@@ -1840,14 +1839,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/javafxasynchronousmvpboilerpart/features/featurex/model/XModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ro/ovidiuconeac/javafxasynchronousmvpboilerpart/features/featurex/model/XResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
+        <state relative-caret-position="486">
           <caret line="33" column="18" lean-forward="false" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
           <folding />
         </state>
